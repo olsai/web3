@@ -1,0 +1,34 @@
+{
+    "name": "hashwallet/web3",
+    "description": "Ethereum web3 interface.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fyi741",
+            "email": "fyi741@protonmail.com",
+            "homepage": "https://github.com/olsai",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3|^7.0",
+        "PHP": "^7.1|^8.0",
+        "kornrunner/keccak": "~1.0",
+        "phpseclib/phpseclib": "~2.0.11",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Web3\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    }
+}
